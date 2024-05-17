@@ -1,0 +1,169 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+
+}  
+ .container{
+    height: 100vh;
+} 
+
+header{
+    background-image:url(https://www.keralatourism.org/images/heli/banner-home.webp?d=271220231702 ); 
+    width: 100%;
+    background-color: black;
+    height: 680px;
+    background-size: cover;
+    background-position: left;
+   
+
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#kerala{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#tourism{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+ul li{
+    margin-left: 30px;
+    list-style: none;
+    display: inline;
+   
+}
+#home{
+    color: rgb(228, 202, 70);
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: rgb(235, 203, 91);
+}
+.title h1, p{
+ margin-left: 120px;
+ color: white;
+}
+.title h1{
+    margin-top: 250px;
+    font-family: "Vidaloka", serif;
+    font-size: 90px;
+    font-weight: 400;
+    
+}
+.title p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#search1{
+    margin-left: 120px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+.search{
+    position: relative;
+
+}
+#search4{
+   border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    left: 965px;
+    cursor: pointer;
+}
+#search4:hover{
+    background-color:rgb(217, 186, 34) ;
+}
+
+.search_bar{
+    width: 20%;
+    height:80px;
+    background-color: rgb(228, 202, 70);
+    margin-top: 133px;
+    float: left;
+    border: .3px solid rgb(94, 92, 92);
+}
+.choose_date{
+    border: 0px;
+    background-color: rgb(228, 202, 70);
+}
+.date{
+    display: flex;
+    margin-top: 25px;
+}
+.date img{
+   
+    margin-left: 30px;
+}
+.date label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    margin-left: 30px;
+    color: grey;
+}
+.date i{
+    padding-left: 20px;
+    padding-top: 8px;
+    
+}
+.footer{
+    background-color: rgb(40, 38, 38);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.footer h1{
+    padding-top: 150px;
+   font-family: "Vidaloka", serif;
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.footer p{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer button{
+    padding: 8px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: rgb(228, 202, 70);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.footer button:hover{
+    color: white;
+}
+.arrow {
+    float: right;
+    margin-right: 20px;
+}
+.arrow i{
+    color: white;
+    padding: 10px 10px;
+    background-color: black;
+    border-top-left-radius: 20px;
+
+}
+.placeholder{
+background: transparent;
+border: 0;
+margin-left: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.placeholder:focus{
+    outline: none;
+}
+ 
